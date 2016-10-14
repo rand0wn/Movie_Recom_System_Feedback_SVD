@@ -1,0 +1,97 @@
+ds.py:52: SyntaxWarning: name 'a' is assigned to before global declaration
+  global a
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : 318 5
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : 858 5
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : 1221 5
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : 1 4
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : 44 3
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : 1203 3
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : 1207 4
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : 1219 3
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : 2643 4
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : 2379 3
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : 2381 3
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : -1 -1
+Loading ratings.dat
+..........|
+Creating matrix (1000220 tuples)
+Matrix density is: 4.4677%
+Updating matrix: squish to at least 10 values
+Computing svd k=100, min_values=10, pre_normalize=None, mean_center=True, post_normalize=True
+[WARNING] mean_center is True. svd.similar(...) might return nan's. If so, then do svd.compute(..., mean_center=False)
+      movie_id                      movie_name
+1203      1221  Godfather: Part II, The (1974)
+     movie_id                        movie_name
+315       318  Shawshank Redemption, The (1994)
+      movie_id      movie_name
+2836      2905  Sanjuro (1962)
+    movie_id                  movie_name
+49        50  Usual Suspects, The (1995)
+      movie_id                                         movie_name
+1950      2019  Seven Samurai (The Magnificent Seven) (Shichin...
+     movie_id             movie_name
+735       745  Close Shave, A (1995)
+     movie_id               movie_name
+523       527  Schindler's List (1993)
+      movie_id                  movie_name
+1132      1148  Wrong Trousers, The (1993)
+     movie_id                                     movie_name
+910       922  Sunset Blvd. (a.k.a. Sunset Boulevard) (1950)
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : 50 4
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : 527 5
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : -1 -1
+Loading ratings.dat
+..........|
+Creating matrix (1000233 tuples)
+Matrix density is: 4.4677%
+Updating matrix: squish to at least 10 values
+Computing svd k=100, min_values=10, pre_normalize=None, mean_center=True, post_normalize=True
+[WARNING] mean_center is True. svd.similar(...) might return nan's. If so, then do svd.compute(..., mean_center=False)
+      movie_id                      movie_name
+1203      1221  Godfather: Part II, The (1974)
+     movie_id                        movie_name
+315       318  Shawshank Redemption, The (1994)
+   movie_id        movie_name
+0         1  Toy Story (1995)
+     movie_id               movie_name
+523       527  Schindler's List (1993)
+      movie_id          movie_name
+3045      3114  Toy Story 2 (1999)
+      movie_id         movie_name
+1195      1213  GoodFellas (1990)
+      movie_id                  movie_name
+1959      2028  Saving Private Ryan (1998)
+      movie_id                              movie_name
+1176      1193  One Flew Over the Cuckoo's Nest (1975)
+     movie_id                        movie_name
+589       593  Silence of the Lambs, The (1991)
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : 3114 3
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : 2028 5
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : 593 4
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : -1 -1
+Loading ratings.dat
+..........|
+Creating matrix (1000249 tuples)
+Matrix density is: 4.4677%
+Updating matrix: squish to at least 10 values
+Computing svd k=100, min_values=10, pre_normalize=None, mean_center=True, post_normalize=True
+[WARNING] mean_center is True. svd.similar(...) might return nan's. If so, then do svd.compute(..., mean_center=False)
+      movie_id                      movie_name
+1203      1221  Godfather: Part II, The (1974)
+     movie_id                        movie_name
+315       318  Shawshank Redemption, The (1994)
+     movie_id               movie_name
+523       527  Schindler's List (1993)
+   movie_id        movie_name
+0         1  Toy Story (1995)
+      movie_id                  movie_name
+1959      2028  Saving Private Ryan (1998)
+      movie_id     movie_name
+1201      1219  Psycho (1960)
+      movie_id                    movie_name
+1189      1207  To Kill a Mockingbird (1962)
+    movie_id                  movie_name
+49        50  Usual Suspects, The (1995)
+      movie_id           movie_name
+1185      1203  12 Angry Men (1957)
+Enter Movie followed by Ratings(-1, -1 to quit(min 10 first time)) : 
